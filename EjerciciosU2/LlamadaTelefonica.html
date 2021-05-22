@@ -1,0 +1,134 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style.css">
+    <title>Ejercicios</title>
+</head>
+
+<body>
+    <div class="ejercicio">
+        <h1>Ejercicios 2.1</h1>
+        <p>Diseñar una solución para resolver cada uno de los siguientes problemas y tratar de refinar sus soluciones
+            mediante
+            algoritmos adecuados:</p>
+        <details class="ejercicio">
+            <summary> a) Realizar llamada telefonica desde telefono publico.</summary>
+            <p>Analizando el problema:</p>
+            <p>Necesitaremos sabes si contamos con efectivo o no, si no tenemos efectivo pasaremos a realizar una
+                llamada
+                por cobrar, si tenemos efectivo lo introducimos en el telefono y procedemos a marcar</p>
+            <details>
+                <summary>Algoritmo: </summary>
+                <code>
+                    <pre>
+            Inicio
+                Si tenemos efectivo
+                    Introducimos el efectivo
+                    Marcamos el numero
+                    Esperamos
+                        Si contentestan
+                            Hablar
+                                Si terminamos de hablar
+                                    Colgar
+                                Si no
+                                    Repetir
+                        Si no 
+                            Mientras no contesten repetimos proceso 3 veces
+    
+                Si no  
+                    Marcamos el numero
+                    Solicitamos llamada por cobrar
+                    Esperamos
+                        Si contentestan
+                            Hablar
+                                Si terminamos de hablar
+                                    Colgar
+                                Si no 
+                                    Repetir
+                        Si no 
+                            Mientras no contesten repetimos el proceso 3 veces
+            Fin
+                </pre>
+                </code>
+            </details>
+            <details>
+                <summary>Diagrama de flujo:</summary>
+                <img src="/Diagrama De Flujo/LlamadaTelefonica.jpg" alt="Diagrama llamada telefonica">
+            </details>
+
+
+        </details>
+        <details class="ejercicio">
+            <summary>b) Cocinar una tortilla.</summary>
+            <p>Analizando el problema:</p>
+            <p>Hay que agarrar un puño de masa, poner la masa en la tortillera, aplastarla y pasarla al comar para
+                cocinar;
+                esperar que se cocine de un lado voltearla volver a esperar y retirar. </p>
+            <details>
+                <summary>Algoritmo:</summary>
+
+                <code>
+                    <pre>
+        Inicio
+            Tomar un puño de masa
+            Colocar el puño de masa en la tortillera
+            Aplastar la masa con la tortillera
+            Retitar la masa de la tortillera
+            Colocar la masa en el comal 
+            Mientras se cocina 
+                Esperar
+                Si se cocina
+                    Voltearla del otro lado 
+                Si no 
+                    Esperar
+            Mientras se cocina el otro lado 
+                Esperar
+                Si se cocina
+                    Retirar
+                Si no 
+                    Esperar
+        Fin        
+                </pre>
+                </code>
+            </details>
+            <details>
+                <summary>Diagrama de flujo:</summary>
+                <img src="/Diagrama De Flujo/Cocinar una tortilla.jpg" alt="Diagrama Cocinar Tortilla">
+            </details>
+        </details>
+        <details class="ejercicio">
+            <summary>c) Reparar un pinchazo de una bicicleta.</summary>
+            <p>Analizando el problema:</p>
+            <p>Se tiene que desmontar la rueda, sacar la camara, sumergir la camara en agua para ver donde
+                esta el pinchazo, una vez localizado el pinchazo colocarle el parche, esperar a que seque y
+                volver a colocar la camara en la rueda.</p>
+            <details>
+                <summary>Algoritmo:</summary>
+                <code>
+                    <pre>
+        Inicio
+
+        Fin            
+                </pre>
+                </code>
+            </details>
+            <details>
+                <summary>Diagrama de flujo:</summary>
+            </details>
+        </details>
+        <details class="ejercicio">
+            <summary>d) Freir un huevo.</summary>
+            <details>
+                <summary>Algoritmo:</summary>
+            </details>
+            <details>
+                <summary>Diagrama de flujo:</summary>
+            </details>
+        </details>
+    </div>
+</body>
+
+</html>
